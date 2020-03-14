@@ -70,11 +70,6 @@ def set_level(score, SPEED):
 	return SPEED
 
 
-	
-
-
- 
-
 def drop_enemies(enemy_list):
 	delay = random.random()
 	if len(enemy_list) < 10 and delay < 0.3:  
